@@ -1,0 +1,4 @@
+# Private source material and local review files
+*.pdf
+.local-checks/
+*.log
