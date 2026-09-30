@@ -5,3 +5,59 @@
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* Text wordmark and education card */
+.brand-name { display: block; font-size: 20px; font-family: Georgia, serif; font-weight: 400; letter-spacing: -.035em; }
+.brand-role { display: block; margin-top: 5px; font-family: Arial, sans-serif; font-size: 7px; font-weight: 500; letter-spacing: .16em; color: #5e7463; }
+.profile-brief { width: 100%; max-width: 475px; justify-self: end; background: #fcfcf6; border: 1px solid #cbd5c5; box-shadow: 13px 13px 0 #e3e8db; padding: 27px 32px 30px; position: relative; }
+.profile-brief::before { content: ""; position: absolute; top: -1px; left: -1px; width: 68px; height: 3px; background: #557557; }
+.brief-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; border-bottom: 1px solid #d8dfd0; padding-bottom: 20px; color: #537258; }
+.brief-top span { font-size: 8px; font-weight: 600; letter-spacing: .14em; }
+.brief-top svg { flex: none; color: #718d67; }
+.brief-education { padding-top: 29px; }
+.brief-university { font-size: 12px; color: #537258; margin-bottom: 13px; font-weight: 600; }
+.profile-brief h2 { font-size: 43px; line-height: 1.05; margin: 0 0 18px; letter-spacing: -.045em; }
+.profile-brief h2 em { color: #547952; }
+.brief-degree { color: #4b6451; font-size: 12px; margin-bottom: 8px; }
+.brief-graduation { color: #5e7463; font-size: 10px; margin-bottom: 0; }
+.brief-graduation span { margin-left: 11px; font-weight: 600; color: #2c4d36; }
+.brief-credentials { display: grid; grid-template-columns: 1fr 1.1fr; gap: 22px; background: #edf1e7; margin: 26px -12px 25px; padding: 22px 18px; }
+.brief-credentials > div + div { padding-left: 19px; border-left: 1px solid #c5d1bd; }
+.brief-credentials dt { font: 600 7px Arial, sans-serif; letter-spacing: .12em; color: #57784e; margin-bottom: 9px; white-space: nowrap; }
+.brief-credentials dd { font: 35px/1 Georgia, serif; letter-spacing: -.035em; margin: 0; color: #254a30; }
+.brief-credentials dd span { font: 11px Arial, sans-serif; color: #597254; letter-spacing: 0; }
+.brief-credentials dd.brief-honors { font-size: 24px; white-space: nowrap; padding-top: 3px; }
+.brief-credentials p { color: #55734d; font-size: 8px; margin: 9px 0 0; }
+.brief-focus { display: grid; grid-template-columns: 1fr 1.7fr; gap: 15px; }
+.brief-focus > p { font-size: 8px; font-weight: 600; letter-spacing: .12em; color: #5a7650; margin: 4px 0 0; }
+.brief-focus ul { padding: 0; margin: 0; list-style: none; }
+.brief-focus li { color: #415f45; font-size: 11px; line-height: 1.8; }
+.brief-focus li + li { margin-top: 3px; }
+.brief-focus li::before { content: "·"; margin-right: 8px; color: #718d61; }
+@media (max-width: 1050px) {
+  .profile-brief { padding-inline: 26px; }
+  .profile-brief h2 { font-size: 39px; }
+  .brief-credentials { gap: 16px; padding-inline: 15px; }
+  .brief-credentials > div + div { padding-left: 15px; }
+  .brief-credentials dd { font-size: 31px; }
+  .brief-credentials dd.brief-honors { font-size: 22px; }
+}
+@media (max-width: 760px) {
+  .brand-name { font-size: 20px; }
+  .brand-role { font-size: 6px; }
+  .profile-brief { max-width: 500px; justify-self: start; width: calc(100% - 13px); }
+  .profile-brief h2 { font-size: 44px; }
+}
+@media (max-width: 440px) {
+  .profile-brief { padding: 23px; }
+  .brief-top span { font-size: 7px; }
+  .profile-brief h2 { font-size: 39px; }
+  .brief-credentials { gap: 12px; padding-inline: 13px; }
+  .brief-credentials dt { font-size: 6px; }
+  .brief-credentials dd { font-size: 30px; }
+  .brief-credentials dd.brief-honors { font-size: 22px; }
+  .brief-credentials dd span { font-size: 9px; }
+  .brief-credentials > div + div { padding-left: 12px; }
+  .brief-focus { grid-template-columns: 1fr 1.8fr; }
+  .brief-focus > p { font-size: 7px; }
+}
