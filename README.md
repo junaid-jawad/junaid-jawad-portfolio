@@ -2,8 +2,8 @@
 
 A responsive, static portfolio for Junaid Jawad, a Rutgers accounting student. It presents a one-sentence professional introduction, organized skills, two academic project case studies, experience, and contact links.
 
-**Live site:** https://mj947-blip.github.io/junaid-jawad-portfolio/  
-**Repository:** https://github.com/mj947-blip/junaid-jawad-portfolio
+**Live site:** https://junaid-jawad.github.io/junaid-jawad-portfolio/  
+**Repository:** https://github.com/junaid-jawad/junaid-jawad-portfolio
 
 ## Project references
 
