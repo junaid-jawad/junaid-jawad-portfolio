@@ -1,25 +1,29 @@
-# Junaid Jawad | Accounting Portfolio
+# Junaid Jawad | Accounting & Financial Analysis
 
-A responsive, static portfolio for Junaid Jawad, a Rutgers accounting student. It presents a one-sentence professional introduction, organized skills, two academic project case studies, experience, and contact links.
+I’m a Rutgers accounting student with experience in accounting operations, financial reporting, and Excel analysis.
 
-**Live site:** https://junaid-jawad.github.io/junaid-jawad-portfolio/  
-**Repository:** https://github.com/junaid-jawad/junaid-jawad-portfolio
+**[View my portfolio →](https://junaid-jawad.github.io/)**
 
-## Project references
+## Selected projects
 
-- [Job Costing & Financial Analysis](job-costing.html) — an Excel and PivotTable analysis of revenue, margins, manufacturing overhead, and cost variances across products and regions.
-- [Cost-Volume-Profit Modeling](cvp-analysis.html) — a two-product-line Excel model for contribution margin, break-even, target profit, and scenario analysis.
+### [Job Costing & Financial Analysis](https://junaid-jawad.github.io/junaid-jawad-portfolio/job-costing.html)
 
-The case studies are based on the academic work described in Junaid's résumé. Original course workbooks and employer records are not published. The illustration and chart shapes are decorative, not financial results.
+Analyzed revenue, gross margins, manufacturing costs, and cost variances across products and regions using Excel formulas and PivotTables.
 
-## Run locally
+### [Cost-Volume-Profit Modeling](https://junaid-jawad.github.io/junaid-jawad-portfolio/cvp-analysis.html)
 
-Open `index.html` in a browser, or serve this folder with any static HTTP server. There are no build tools or package dependencies.
+Built an Excel model for two product lines to evaluate contribution margins, break-even points, target-profit volumes, and changing operating assumptions.
 
-## Assignment checklist
+## Skills
 
-- Clear, one-sentence professional statement
-- Relevant accounting, analytical, and technical skills
-- Two project summaries with working case study links
-- Responsive navigation and readable mobile layout
-- Public GitHub repository and GitHub Pages deployment
+- **Accounting:** Reconciliations, financial reporting, accounts payable, and internal controls.
+- **Analysis:** Cost and variance analysis, CVP modeling, break-even analysis, and risk assessment.
+- **Tools:** Excel PivotTables, lookup functions, conditional formulas, data validation, Word, and PowerPoint.
+
+## Connect
+
+[Email](mailto:junaid.jawad@rutgers.edu) · [LinkedIn](https://www.linkedin.com/in/muhammad-junaid-jawad/)
+
+---
+
+Portfolio built with HTML and CSS and published with GitHub Pages.
